@@ -24,10 +24,6 @@
   --switch-bg-url: url(./assets/Sun.svg);
 }
 
-.test {
-  color: rgba(255,255 ,0 , 0.2)
-}
-
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -165,7 +161,7 @@ footer {
 /* media queries */
 
 @media (min-width: 700px){
-  ::root {
+  :root {
     --bg-url: url(assets/bg-desktop.jpg);
   }
 
